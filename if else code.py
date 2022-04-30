@@ -12,7 +12,7 @@ else:
 statement5
 '''
 
-# WAP to check greatest of 2 numbers
+# WAP to check greatest of 2 numbers using if else condition
 a=8
 b=5
 if a>b:

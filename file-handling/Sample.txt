@@ -1,0 +1,5 @@
+Good Morning
+How are you doing?
+I am good
+How about you?
+I am in Python Training

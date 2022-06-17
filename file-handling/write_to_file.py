@@ -1,12 +1,5 @@
-fw=open('Sample2.txt',mode='w')
-fw.seek(0,2)
-print(fw.tell())
-fw.write('Python')
-fw.seek(0,0)
-print(fw.tell())
-fw.write('J')
-fw.seek(0,2)
-print(fw.tell())
+with open('Sample7.txt',mode='w') as fw:
+    fw.write('Python')
+print(fw.closed)
 
-print(fw.tell())
-fw.close()
+
